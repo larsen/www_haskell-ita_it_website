@@ -273,6 +273,7 @@ renderTagListForTopMenu activeSection tags = do
       fromTagToMenuName "coding" = "Codice Haskell"
       fromTagToMenuName "events" = "Eventi"
       fromTagToMenuName "tools" = "Come Iniziare"
+      fromTagToMenuName "books" = "Bibliografia"
       fromTagToMenuName n = n
 
       -- | Order entries on the top down menu
